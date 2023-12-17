@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  border-radius: border-box;
+}
+
+body {
+  height: 4000px;
+  width: 1519px;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 140px;
+  background-color: orange;
+}
+
+.div1 img, .div1 p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.div1 .div3 {
+  border-radius: 50%;
+  background-color: orange;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.div1 .div4 {
+  border-radius: 50%;
+  background-color: orange;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.div1 .div3 {
+  margin-left: 900px;
+}
+
+.div5 {
+  height: 65px;
+  width: 1519px;
+  background-color: darkred;
+  display: inline-block;
+}
+
+.list {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  color: gray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div6 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  padding-top: 7px;
+}
+
+.list1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo1 {
+  padding-left: 40px;
+}
+
+.p1 {
+  color: azure;
+  font-size: 45px;
+  padding-left: 20px;
+  font-family: cursive;
+}
+
+.cart {
+  margin-left: 20px;
+}
+
+.background1 {
+  width: 100%;
+  height: auto;
+}
+
+.section1 {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.div7 {
+  width: 1320px;
+}
+.div7 img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.div7 p {
+  color: darkgray;
+}
+
+.div8 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  max-width: 253px;
+  height: auto;
+}
+
+.div9 {
+  display: inline-block;
+  vertical-align: middle;
+  top: 30px;
+  left: 310px;
+}
+
+.div10 {
+  width: 1000px;
+  top: 125px;
+  right: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  .logo1 {
+    padding-left: 0px;
+  }
+  .div5 {
+    width: 100%;
+    height: 130px;
+  }
+  .div1 .div3 {
+    margin-left: 200px;
+  }
+}
+.div3 :hover {
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.div4 :hover {
+  background-color: gray;
+  border-radius: 50%;
+}/*# sourceMappingURL=global.css.map */
