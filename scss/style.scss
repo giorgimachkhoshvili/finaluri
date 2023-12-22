@@ -1,5 +1,5 @@
 body{
-    height: 4000px;
+    
     width: 1519px;
 }
 
@@ -62,8 +62,10 @@ header{
 }
 
 .list1{
-    @include style1
+    @include style1;
 }
+
+
 
 .logo1{
     padding-left: 40px;
@@ -85,72 +87,101 @@ header{
     height: auto;
 }
 
-.section1{
-    margin-top: 100px;
+
+.sec3{
     margin-left: 100px;
+ 
+    width: 1303px;
+}
+
+.sec1{
+    // margin-top: 100px;
+    margin-left: 100px;
+    @include style2;
 }
 
 
 .div7{
+    width: 650px;
+    margin-bottom: 20px;
     img{
-        @include style1;
+        @include style2;
+       
+
     }
-    p{
-        color: darkgray;
+    .div8{
+        @include style2;
+        width: 300px;
+        padding-left:10px ;
+        padding-top: 10px;
     }
-    width: 1320px;
-  
+    .div9{
+        display: inline-block;
+        width: 165px;
+        margin-left: 100px;
+        padding-left: 20px;
+        border-radius: 25px;
+        border: 2px solid grey
+        
+    }
+    border-radius: 25px;
+    border: 2px solid grey
 
-
-}
-
-
-
-
-.div8{
-    @include style1;
-    width: 100%;
-    max-width: 253px;
-    height: auto;
-}
-
-.div9{
-    @include style1;
-    top: 30px;
-    left: 310px
    
 }
 
-.div10{
-    width: 1000px;
-    top: 125px;
-   right: 0px;
+.sec2{
+    @include style2;
+    // margin-top: 100px;
 }
 
 
 
+footer{
+    background-color: #242124;
+    height: 300px;
+    width: 1519px;
+}
+
+
+.div10{
+    padding-left: 50px;
+    padding-top: 57px;
+}
+
+li{
+    color: azure;
+}
+
+.div10, .div11, .div12{
+    @include style1
+}
+
+.div11{
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.div12{
+    img{
+        @include style1;
+    }
+    padding-left: 200px
+  
+  
+  
+}
+
+.div13{
+    @include style1;
+    padding-left: 400px;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a{
+    text-decoration: none;
+}
 
 
 

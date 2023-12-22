@@ -1,4 +1,7 @@
 @media only screen and (max-width: 768px){
+     body{
+    width: 820px;
+    }
     
     header{
         width: 100%;
@@ -10,13 +13,27 @@
 
     .div5{
         width: 100%;
-        height: 130px;
+        height: 70px;
+    }
+
+    .div6{
+        width: 180px;
     }
 
     .div1{
         .div3{
-            margin-left: 200px;
+            margin-left: 170px;
         }
+    }
+
+    .sec2{
+        display: block;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    .sec3{
+        width: 650px;
     }
 }
 

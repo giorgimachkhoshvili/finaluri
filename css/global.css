@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h4, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -61,7 +61,6 @@ a {
 }
 
 body {
-  height: 4000px;
   width: 1519px;
 }
 
@@ -144,44 +143,95 @@ header {
   height: auto;
 }
 
-.section1 {
-  margin-top: 100px;
+.sec3 {
   margin-left: 100px;
+  width: 1303px;
+}
+
+.sec1 {
+  margin-left: 100px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .div7 {
-  width: 1320px;
+  width: 650px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 2px solid grey;
 }
 .div7 img {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
-.div7 p {
-  color: darkgray;
+.div7 .div8 {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.div7 .div9 {
+  display: inline-block;
+  width: 165px;
+  margin-left: 100px;
+  padding-left: 20px;
+  border-radius: 25px;
+  border: 2px solid grey;
 }
 
-.div8 {
+.sec2 {
   display: inline-block;
-  vertical-align: middle;
-  width: 100%;
-  max-width: 253px;
-  height: auto;
+  vertical-align: top;
 }
 
-.div9 {
-  display: inline-block;
-  vertical-align: middle;
-  top: 30px;
-  left: 310px;
+footer {
+  background-color: #242124;
+  height: 300px;
+  width: 1519px;
 }
 
 .div10 {
-  width: 1000px;
-  top: 125px;
-  right: 0px;
+  padding-left: 50px;
+  padding-top: 57px;
+}
+
+li {
+  color: azure;
+}
+
+.div10, .div11, .div12 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.div11 {
+  padding-top: 20px;
+  padding-left: 150px;
+}
+
+.div12 {
+  padding-left: 200px;
+}
+.div12 img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.div13 {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 400px;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    width: 820px;
+  }
   header {
     width: 100%;
   }
@@ -190,10 +240,21 @@ header {
   }
   .div5 {
     width: 100%;
-    height: 130px;
+    height: 70px;
+  }
+  .div6 {
+    width: 180px;
   }
   .div1 .div3 {
-    margin-left: 200px;
+    margin-left: 170px;
+  }
+  .sec2 {
+    display: block;
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+  .sec3 {
+    width: 650px;
   }
 }
 .div3 :hover {
@@ -204,4 +265,9 @@ header {
 .div4 :hover {
   background-color: gray;
   border-radius: 50%;
+}
+
+.div9 :hover {
+  background-color: orange;
+  border-radius: 25px;
 }/*# sourceMappingURL=global.css.map */
