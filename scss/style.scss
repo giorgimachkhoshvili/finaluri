@@ -1,5 +1,5 @@
 body{
-    
+    background-color: beige;
     width: 1519px;
 }
 
@@ -39,7 +39,7 @@ header{
     
 }
 .div5{
-    height: 65px;
+    height: 70px;
     width: 1519px;
     background-color: darkred;
     display: inline-block;
@@ -54,16 +54,19 @@ header{
 }
 
 .div6{
+    
+    
     @include style1;
     width: 200px;
     padding-top: 7px;
-    
- 
+    margin-left: 139px;
+   
 }
 
 .list1{
     @include style1;
 }
+
 
 
 
@@ -103,7 +106,23 @@ header{
 
 .div7{
     width: 650px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid grey;
     margin-bottom: 20px;
+    h2{
+        font-size:40px; 
+        margin-bottom: 15px
+    }
+    h4{
+        font-size: 20px;
+        margin-bottom: 10px;
+
+    }
+    p{
+        margin-bottom: 20px
+    }
     img{
         @include style2;
        
@@ -112,20 +131,28 @@ header{
     .div8{
         @include style2;
         width: 300px;
+        
         padding-left:10px ;
         padding-top: 10px;
+        .div9{
+            @include style1;
+            width: 175px;
+            background-color: beige;
+            
+            border-radius: 25px;
+            
+            border: 2px solid grey;
+            h5{
+                font-size: 30px;
+                padding-left: 24px;
+            
+            }
+        }
+        p{
+            text-decoration:#A9A9A9
+        }
     }
-    .div9{
-        display: inline-block;
-        width: 165px;
-        margin-left: 100px;
-        padding-left: 20px;
-        border-radius: 25px;
-        border: 2px solid grey
-        
-    }
-    border-radius: 25px;
-    border: 2px solid grey
+    
 
    
 }
@@ -178,20 +205,243 @@ li{
 }
 
 
-
 a{
     text-decoration: none;
 }
 
+.sec4{
+    margin-left: 80px;
+    
+    @include style2;
+    
+}
+
+.div14{
+    height: 450px;
+    width: 400px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-radius: 25px;
+    border: 2px solid grey;
+    background-color: white;
+
+    img{
+        padding-left: 150px;
+    }
+    .div15{
+        padding-left: 70px;
+        
+    }
+ 
 
 
+    h4{
+        font-size: 30px;
+    }
 
+    .div16{
+        width: 150px;
+        border-radius: 25px;
+        background-color: beige;
+        border: 2px solid grey;
+        h4{
+            padding: 10px;
+        }
+    }
 
+}
 
+.sec5{
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+}
 
+.div17{
+    width: auto;
+    border: 2px solid grey;
+    border-radius: 25px;
+    
+    
+    
+    h1{
+        font-size: 50px;
+        padding-top: 20px;
+        padding-left: 15px;
+    }
 
+    h2{
+        font-size: 30px;
+        padding-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
 
+    h3{
+        font-size: 30px;
+        padding-left: 15px ;
+    }
 
+    .div18{
+        width: 400px;
+        height: 460px;
+        background-color: white;
+        margin-left: 7px;
+        padding-left: 33px;
+        border: 2px solid grey;
+        border-radius: 25px;
+        @include style1;
+
+        .right{
+            margin-right: 140px;
+        }
+
+        p{
+            font-size: 20px;
+            padding-left: 15px ;
+
+        }
+
+        h2{
+            display: inline-block;
+            vertical-align: bottom;
+            margin-right: 100px;
+        }
+
+        .div19{
+            display: inline-block;
+            vertical-align: bottom;
+            width: 150px;
+            background-color: beige;
+            border-radius: 25px;
+            border: 2px solid grey;
+            h4{
+                padding: 10px;
+                font-size: 30px;
+            }
+        }
+    }
+
+    .div20{
+        @include style1;
+        width: 400px;
+        height: 550px;
+        background-color: white;
+        border: 2px solid grey;
+        border-radius: 25px;
+        margin-left: 7px;
+        h2{
+            @include style1;
+            margin-right: 140px;    
+        }
+        .div19{
+            @include style1;
+            width: 150px;
+            border-radius: 25px;
+            background-color: beige;
+            
+            border: 2px solid grey;
+            h4{
+                padding: 10px;
+                font-size: 30px;
+            }
+
+        }
+
+        h2{
+            margin-top: 15px;
+        }
+        
+        
+
+    }
+    
+    .div21{
+        @include style1;
+        width: 290px;
+        height: 370px;
+        background-color: white;
+        border: 2px solid grey;
+        border-radius: 25px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+
+        .div19{
+            display: inline-block;
+            vertical-align: bottom;
+            width: 150px;
+            background-color: beige;
+            border-radius: 25px;
+            
+            border: 2px solid grey;
+            h4{
+                padding: 10px;
+                font-size: 30px;
+            }
+
+        }
+        h2{
+            display: inline-block;
+            vertical-align: bottom;
+            margin-right: 40px;    
+        }
+    }
+}
+
+.sec6{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.div22{
+    background-color: #A9A9A9;
+    width: 1100px;
+    height: 300px;
+    .div23{
+        @include style1;
+        margin-left: 80px;
+        h1{
+            font-size: 40px;
+            padding-bottom: 20px;
+
+        }
+        p{
+            font-size: 25px;
+            padding-bottom: 10px;
+        }
+    }
+    img{
+        @include style1;
+        padding-top: 10px;
+        padding-left: 350px;
+    }
+}
+
+.sec7{
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+
+.div25{
+    width: 1000px;
+    margin: auto;
+    background-color: #A9A9A9;
+    border-radius: 25px;
+    p{
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+}
+
+.div24{
+    background-color: beige;
+    width: auto;
+    h1{
+        font-size: 32px;
+    }
+}
 
 
 

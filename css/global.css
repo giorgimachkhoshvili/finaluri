@@ -61,6 +61,7 @@ a {
 }
 
 body {
+  background-color: beige;
   width: 1519px;
 }
 
@@ -97,7 +98,7 @@ header {
 }
 
 .div5 {
-  height: 65px;
+  height: 70px;
   width: 1519px;
   background-color: darkred;
   display: inline-block;
@@ -116,6 +117,7 @@ header {
   vertical-align: middle;
   width: 200px;
   padding-top: 7px;
+  margin-left: 139px;
 }
 
 .list1 {
@@ -156,9 +158,22 @@ header {
 
 .div7 {
   width: 650px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  background-color: white;
   border-radius: 25px;
   border: 2px solid grey;
+  margin-bottom: 20px;
+}
+.div7 h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.div7 h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.div7 p {
+  margin-bottom: 20px;
 }
 .div7 img {
   display: inline-block;
@@ -171,13 +186,20 @@ header {
   padding-left: 10px;
   padding-top: 10px;
 }
-.div7 .div9 {
+.div7 .div8 .div9 {
   display: inline-block;
-  width: 165px;
-  margin-left: 100px;
-  padding-left: 20px;
+  vertical-align: middle;
+  width: 175px;
+  background-color: beige;
   border-radius: 25px;
   border: 2px solid grey;
+}
+.div7 .div8 .div9 h5 {
+  font-size: 30px;
+  padding-left: 24px;
+}
+.div7 .div8 p {
+  text-decoration: #A9A9A9;
 }
 
 .sec2 {
@@ -228,9 +250,218 @@ a {
   text-decoration: none;
 }
 
+.sec4 {
+  margin-left: 80px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.div14 {
+  height: 450px;
+  width: 400px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border-radius: 25px;
+  border: 2px solid grey;
+  background-color: white;
+}
+.div14 img {
+  padding-left: 150px;
+}
+.div14 .div15 {
+  padding-left: 70px;
+}
+.div14 h4 {
+  font-size: 30px;
+}
+.div14 .div16 {
+  width: 150px;
+  border-radius: 25px;
+  background-color: beige;
+  border: 2px solid grey;
+}
+.div14 .div16 h4 {
+  padding: 10px;
+}
+
+.sec5 {
+  margin-top: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 10px;
+}
+
+.div17 {
+  width: auto;
+  border: 2px solid grey;
+  border-radius: 25px;
+}
+.div17 h1 {
+  font-size: 50px;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.div17 h2 {
+  font-size: 30px;
+  padding-left: 15px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+.div17 h3 {
+  font-size: 30px;
+  padding-left: 15px;
+}
+.div17 .div18 {
+  width: 400px;
+  height: 460px;
+  background-color: white;
+  margin-left: 7px;
+  padding-left: 33px;
+  border: 2px solid grey;
+  border-radius: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.div17 .div18 .right {
+  margin-right: 140px;
+}
+.div17 .div18 p {
+  font-size: 20px;
+  padding-left: 15px;
+}
+.div17 .div18 h2 {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 100px;
+}
+.div17 .div18 .div19 {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 150px;
+  background-color: beige;
+  border-radius: 25px;
+  border: 2px solid grey;
+}
+.div17 .div18 .div19 h4 {
+  padding: 10px;
+  font-size: 30px;
+}
+.div17 .div20 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 400px;
+  height: 550px;
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 25px;
+  margin-left: 7px;
+}
+.div17 .div20 h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 140px;
+}
+.div17 .div20 .div19 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+  border-radius: 25px;
+  background-color: beige;
+  border: 2px solid grey;
+}
+.div17 .div20 .div19 h4 {
+  padding: 10px;
+  font-size: 30px;
+}
+.div17 .div20 h2 {
+  margin-top: 15px;
+}
+.div17 .div21 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 290px;
+  height: 370px;
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 25px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.div17 .div21 .div19 {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 150px;
+  background-color: beige;
+  border-radius: 25px;
+  border: 2px solid grey;
+}
+.div17 .div21 .div19 h4 {
+  padding: 10px;
+  font-size: 30px;
+}
+.div17 .div21 h2 {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 40px;
+}
+
+.sec6 {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.div22 {
+  background-color: #A9A9A9;
+  width: 1100px;
+  height: 300px;
+}
+.div22 .div23 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 80px;
+}
+.div22 .div23 h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.div22 .div23 p {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.div22 img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-left: 350px;
+}
+
+.sec7 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.div25 {
+  width: 1000px;
+  margin: auto;
+  background-color: #A9A9A9;
+  border-radius: 25px;
+}
+.div25 p {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.div24 {
+  background-color: beige;
+  width: auto;
+}
+.div24 h1 {
+  font-size: 32px;
+}
+
 @media only screen and (max-width: 768px) {
   body {
-    width: 820px;
+    width: 770px;
   }
   header {
     width: 100%;
@@ -240,7 +471,7 @@ a {
   }
   .div5 {
     width: 100%;
-    height: 70px;
+    height: 140px;
   }
   .div6 {
     width: 180px;
@@ -256,6 +487,47 @@ a {
   .sec3 {
     width: 650px;
   }
+  .sec4 {
+    display: block;
+    margin-left: 200px;
+  }
+  footer {
+    width: 770px;
+  }
+  .div10 {
+    padding-left: 10px;
+  }
+  .div11 {
+    padding-left: 10px;
+  }
+  .div12 {
+    padding-left: 30px;
+  }
+  .div13 {
+    padding-left: 10px;
+  }
+  .sec5 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .div17 {
+    width: auto;
+  }
+  .div17 .div20 {
+    margin-left: 170px;
+  }
+  .div17 .div18 {
+    margin-left: 150px;
+  }
+  .div17 .div21 {
+    margin-left: 50px;
+  }
+  .sec7 {
+    margin-left: 0px;
+  }
+  .div25 {
+    width: 750px;
+  }
 }
 .div3 :hover {
   background-color: gray;
@@ -268,6 +540,16 @@ a {
 }
 
 .div9 :hover {
+  background-color: orange;
+  border-radius: 25px;
+}
+
+.div16 :hover {
+  background-color: orange;
+  border-radius: 25px;
+}
+
+.div19 :hover {
   background-color: orange;
   border-radius: 25px;
 }/*# sourceMappingURL=global.css.map */
