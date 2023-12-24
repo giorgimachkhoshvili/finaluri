@@ -164,8 +164,8 @@ header {
   border: 2px solid grey;
   margin-bottom: 20px;
 }
-.div7 h2 {
-  font-size: 40px;
+.div7 h3 {
+  font-size: 25px;
   margin-bottom: 15px;
 }
 .div7 h4 {
@@ -527,6 +527,19 @@ a {
   }
   .div25 {
     width: 750px;
+  }
+  .sec6 {
+    margin-left: 0px;
+  }
+  .sec6 .div22 {
+    width: 760px;
+  }
+  .sec6 .div22 .div23 {
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  .sec6 .div22 img {
+    padding-left: 20px;
   }
 }
 .div3 :hover {
