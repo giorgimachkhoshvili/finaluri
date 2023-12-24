@@ -66,6 +66,7 @@
   }
   .div25 {
     width: 750px;
+    height: 430px;
   }
   .sec6 {
     margin-left: 0px;
@@ -74,7 +75,7 @@
     width: 760px;
   }
   .sec6 .div22 .div23 {
-    margin-left: 0px;
+    margin-left: 50px;
     font-size: 20px;
   }
   .sec6 .div22 img {
