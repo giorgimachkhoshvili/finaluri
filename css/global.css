@@ -231,6 +231,9 @@ li {
   padding-top: 20px;
   padding-left: 150px;
 }
+.div11 li {
+  margin-bottom: 10px;
+}
 
 .div12 {
   padding-left: 200px;
@@ -267,15 +270,53 @@ a {
 }
 .div14 img {
   padding-left: 150px;
+  padding-top: 10px;
 }
 .div14 .div15 {
   padding-left: 70px;
+  padding-top: 25px;
+}
+.div14 .div15 h1 {
+  font-size: 25px;
+  padding-bottom: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.div14 .fasi {
+  margin-left: 100px;
+}
+.div14 .koka {
+  margin-left: 125px;
+}
+.div14 .nataxtari {
+  margin-left: 125px;
+}
+.div14 .fanta {
+  margin-left: 180px;
+}
+.div14 .heinekeni {
+  margin-left: 140px;
+}
+.div14 .alublis {
+  margin-left: 136px;
+}
+.div14 .spraiti {
+  margin-left: 150px;
+}
+.div14 .bavaria {
+  margin-left: 164px;
+}
+.div14 .wyali {
+  margin-left: 170px;
 }
 .div14 h4 {
-  font-size: 30px;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
 }
 .div14 .div16 {
-  width: 150px;
+  width: 107px;
+  margin-left: 70px;
   border-radius: 25px;
   background-color: beige;
   border: 2px solid grey;
@@ -528,15 +569,23 @@ a {
   .sec7 {
     margin-left: 0px;
   }
+  .div24 h1 {
+    margin-left: 10px;
+  }
   .div25 {
     width: 750px;
-    height: 430px;
+    height: 800px;
+  }
+  .div25 p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 10px;
   }
   .sec6 {
     margin-left: 0px;
   }
   .sec6 .div22 {
-    width: 760px;
+    width: 769px;
   }
   .sec6 .div22 .div23 {
     margin-left: 50px;
